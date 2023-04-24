@@ -23,8 +23,8 @@
 ### If false, 1 will be subtracted from the total number of guesses the user has left and the div will be left blank 
 
 ## Game Scoring
-## If the user exhausts their guesses, the game will end and the div containing the inner html text 'You Lost!' will become visible 
-## If the user wins, the game will end and the div containing the inner html text "You won!' will become visible 
+### If the user exhausts their guesses, the game will end and the div containing the inner html text 'You Lost!' will become visible 
+### If the user wins, the game will end and the div containing the inner html text "You won!' will become visible 
 
 ## Wireframe
 ![game_wireframe_snap](https://user-images.githubusercontent.com/130386022/234037906-9528901b-d084-4ca6-a949-be20fffaabc1.JPG)
