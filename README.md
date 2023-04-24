@@ -1,4 +1,4 @@
-# H1: Game Title 
+# H1: Hangman
 
 ## Game Start
 ### User will be prompted to start the game with a 'start' button
