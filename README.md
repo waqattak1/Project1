@@ -27,5 +27,6 @@
 ## If the user wins, the game will end and the div containing the inner html text "You won!' will become visible 
 
 ## Wireframe
-![alt text](game_wireframe_snap.JPG)
+![game_wireframe_snap](https://user-images.githubusercontent.com/130386022/234037906-9528901b-d084-4ca6-a949-be20fffaabc1.JPG)
+
 
