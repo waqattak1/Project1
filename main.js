@@ -98,7 +98,7 @@ function gameProgress() {
     if (targetGuessArray.includes(inputVal)=== true) {
         indexOfCorrectGuess = targetGuessArray.indexOf(inputVal);        
         console.log("index of this letter is: ", indexOfCorrectGuess)
-        arraySoFar[indexOfCorrectGuess] = inputVal;
+        arraySoFar[indexOfCorrectGuess] = inputVal;        
     } else {
         remainingGuesses = numGuesses - userGuessArray.length;
         console.log("incorrect!")
