@@ -31,6 +31,7 @@
   
   .container2 {
     position: relative;
+    flex-direction: column;
     width: 1200px; 
     height: 510px;
     padding: 20px;
@@ -40,7 +41,8 @@
   }
   
   #images {
-    display: inline-block;
+    display: block;
+    text-align:center;
     height: 500px;
     width: 500px;
     border: solid;
@@ -48,6 +50,12 @@
     position: absolute;
     left: 0;
     margin-left: 100px
+  }
+  
+  #man_image {
+    margin-left: 50px;
+    height: 400px;
+    width: 400px;
   }
   
   #user_input {
@@ -63,19 +71,33 @@
   #Container2header {
     text-align:center;
   }
-  
+
   label{
     margin-left: 50px;
   }
 
   #userGuesses {
+    text-align: center;
     border: solid;
     height: 100px;
     width: 75%;
     margin-left: 50px;
     margin-top: 250px;  
+    border-radius: 10%;
+    font-size: 30px;
 
-  }  
+  }
+  
+  #guessesRemaining {
+    text-align: center;
+    border: solid;
+    height: 100px;
+    width: 150px;
+    margin-top: -250px;
+    margin-left: 170px
+
+
+  }
   
   .container3 {
     position: relative;
@@ -102,6 +124,7 @@
     left: 20%;
     transform: translateX(-50%);
     margin-top: 20px;
+    border-radius: 25%;
   }
   
   #progress {
@@ -115,6 +138,7 @@
     position: absolute;
     left: 70%;
     margin-top: 20px;
+    border-radius: 25%;
   }
  
   

@@ -15,15 +15,22 @@
     <div class="container2">
         <section id="images">
             <h1 id="manStatHeader">MAN STATUS</h1>
-        
+            <img id="man_image" src= images/0.png>
+       
         </section>
 
         <section id="user_input">
             <h1 id="Container2header">USER INPUT</h1>
             <label for="userGuess">Enter your letter:</label>
-            <input type="text" id="userGuess" name="userGuess">
+            <input type="text" id="userGuess" name="userGuess" placeholder="Input a letter">
             <button id="Submit_guess">SUBMIT</button>
-            <div id="userGuesses"></div>
+            <div id="userGuesses">
+                <p id="userGuessesTitle">Your guesses will display here </p>
+            </div>
+            <div id="guessesRemaining">
+                <h4>Guesses Remaining</h4>
+                <p id="guessDisplay"></p>                    
+            </div>
         </section>
     </div>
 
