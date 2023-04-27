@@ -17,4 +17,4 @@
 ### Audio effects are a planned future enhancement. Correctly guessed portions of the word displaying on the screen are also a planned future enhancement.
 
 # Screenshot of game
-![Game GUI](https://imgur.com/a/jqU4JnK.png)
+![Game GUI](https://imgur.com/LdJmliK.png)
