@@ -11,19 +11,18 @@
 <body>
     <h1 id="Title">Hangman</h1>
     <button id="Start_Game">PLAY</button>
-
+    <button id="Play_Again" style="display: none;" >Play Again</button>
     <div class="container2">
         <section id="images">
             <h1 id="manStatHeader">MAN STATUS</h1>
-            <img id="man_image" src= images/0.png>
-       
+            <img id="man_image" src= images/0.png>       
         </section>
-
         <section id="user_input">
             <h1 id="Container2header">USER INPUT</h1>
             <label for="userGuess">Enter your letter:</label>
             <input type="text" id="userGuess" name="userGuess" placeholder="Input a letter">
             <button id="Submit_guess">SUBMIT</button>
+            <div id="correctGuesses"></div>
             <div id="userGuesses">
                 <p id="userGuessesTitle">Your guesses will display here </p>
             </div>
@@ -33,17 +32,9 @@
             </div>
         </section>
     </div>
-
-    <div class="container2.5"> 
     <div class="container3">
         <section id="game_status">GAME STATUS</section>
         <section id="progress"></section>
     </div>
-
-
-
-
-
-
 </body>
 </html>
